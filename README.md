@@ -11,3 +11,6 @@ To run:
 
 
 Have fun!
+
+
+For simplier OO in Perl, see Moose.
