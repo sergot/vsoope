@@ -5,8 +5,6 @@ use strict;
 
 use feature 'say';
 
-use Data::Dumper;
-
 use Animal;
 use Animal::Horse;
 use Animal::Dog;
@@ -23,7 +21,7 @@ $fox = undef;
 $horse->say;
 
 if($horse->isa('Animal')) {
-    say $horse->name . ' is a Animal';
+    say $horse->name . ' is an Animal';
 }
 
 $dog->say;
